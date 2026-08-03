@@ -8,7 +8,7 @@ name = "MRBS"
 description.en = "Meeting Room Booking System - Book rooms or other resources"
 description.fr = "Système de réservation de salles de réunion : réservez des salles ou autres dispositifs" # Thanks miro5001 :)
 
-version = "1.12.1~ynh1"
+version = "1.12.2~ynh1"
 
 maintainers = ["felurx"]
 
@@ -67,8 +67,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/meeting-room-booking-system/mrbs-code/archive/refs/tags/v1.12.1.tar.gz"
-        sha256 = "0c5f1270c0ec3d298bc5d4e2d53c01dfe7e193a14cb96a8f5ecc92117e214823"
+        url = "https://github.com/meeting-room-booking-system/mrbs-code/archive/refs/tags/v1.12.2.tar.gz"
+        sha256 = "caf24f9b13819b0562bb1f13e877acbfa44cac74d5f532d4f1c1e3cc7c03f728"
 
         # You might want to add an "autoupdate strategy" setting to that your app receive automated pull request with each new update, which also trigger automated testing.
         autoupdate.strategy = "latest_github_release"
