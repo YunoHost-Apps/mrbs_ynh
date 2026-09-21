@@ -14,8 +14,6 @@ ynh_script_progression "Upgrading source files..."
 
 ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="web/config.inc.php web/config-ynh.inc.php"
 
-#TODO: Check if this can be removed
-chown -R $app:www-data "$install_dir"
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================

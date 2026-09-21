@@ -51,10 +51,6 @@ ram.runtime = "50M"
 
 [resources]
 
-    [resources.system_user]
-
-    [resources.install_dir]
-
     [resources.sources]
 
         [resources.sources.main]
@@ -63,6 +59,11 @@ ram.runtime = "50M"
 
         autoupdate.strategy = "latest_github_release"
 
+    [resources.system_user]
+
+    [resources.install_dir]
+    group = "www-data:r-x"
+    
     [resources.permissions]
     main.url = "/"
     admin = {} # Use all the defaults
