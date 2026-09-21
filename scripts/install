@@ -2,8 +2,7 @@
 
 source /usr/share/yunohost/helpers
 
-timezone="$(cat /etc/timezone)"
-ynh_app_setting_set --key=timezone --value="$timezone"
+timezone="$(timedatectl show --value --property=Timezone)"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE

@@ -3,9 +3,11 @@
 source /usr/share/yunohost/helpers
 
 #=================================================
-# INSTALL DEPENDENCIES
+# ENSURE DOWNWARD COMPATIBILITY
 #=================================================
-ynh_script_progression "Installing dependencies..."
+ynh_script_progression "Ensuring downward compatibility..."
+
+timezone="$(timedatectl show --value --property=Timezone)"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
