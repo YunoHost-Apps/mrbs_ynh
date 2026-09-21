@@ -68,7 +68,7 @@ ram.runtime = "50M"
     admin = {} # Use all the defaults
 
     [resources.apt]
-    packages = "php8.4, php8.4-common, php8.4-intl, php8.4-pgsql, php8.4-ldap, postgresql"
+    packages = "php8.5-common, php8.5-intl, php8.5-pgsql, php8.5-ldap, postgresql"
 
     [resources.database]
     type = "postgresql"
