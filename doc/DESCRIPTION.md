@@ -1,6 +1,6 @@
 Meeting Room Booking System (MRBS) is a webapp for booking rooms or other resources.
 
-Some features from the website:
+### Features
 
 - Simple to follow, Web based options and intuitive presentation
 - Flexible Repeating Bookings
